@@ -83,4 +83,13 @@ time platanus scaffold -o Poil -c Poil_contig.fa -IP1 sub1.fastq.trimmed sub2.fa
 ```python
 time platanus gap_close -o Poil -c Poil_scaffold.fa -IP1 sub1.fastq.trimmed sub2.fastq.trimmed -OP2 mp1.fastq.int_trimmed mp2.fastq.int_trimmed 2> gapclose.log
 ```
+### Удаление файлов:
 
+```python
+rm sub1.fastq.trimmed sub2.fastq.trimmed
+rm mp1.fastq.int_trimmed mp2.fastq.int_trimmed
+```
+
+### Аанализ контигов, скаффолдов и гэпов:
+
+Ссылка на Google Colab: https://colab.research.google.com/drive/1oB17FOMZWvMK-EvYglvfxCwCD5BZChDB?usp=sharing
